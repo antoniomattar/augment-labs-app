@@ -13,7 +13,7 @@ export const teamMembers: TeamMember[] = [
 		role: "Technical Consultant",
 		bio: "LAU CS Graduate with 2+ years of experience as a Technical Consultant between Murex and JobDiva, specializing in fintech solutions.",
 		avatar: "https://api.dicebear.com/7.x/avataaars/svg?seed=Joe",
-		linkedin: "https://linkedin.com/in/joefarah",
+		linkedin: "https://linkedin.com/in/joe-farah",
 		github: "https://github.com/Joe-Farah",
 	},
 	{
