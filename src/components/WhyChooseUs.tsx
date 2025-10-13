@@ -10,23 +10,23 @@ const WhyChooseUs = () => {
   const pillars = [
     {
       icon: Lightbulb,
-      title: "Innovation",
-      description: "We stay ahead of tech trends to deliver cutting-edge solutions",
+      title: "Practical Approach",
+      description: "We focus on solutions that work, not the latest buzzwords",
     },
     {
       icon: Lock,
-      title: "Security",
-      description: "Enterprise-grade security measures built into every solution",
+      title: "Trustworthy",
+      description: "Clear communication, realistic timelines, and no surprises",
     },
     {
       icon: Palette,
-      title: "Customization",
-      description: "Tailored solutions designed specifically for your business needs",
+      title: "Tailored Solutions",
+      description: "Every business is different — we build what you actually need",
     },
     {
       icon: HeadphonesIcon,
-      title: "24/7 Support",
-      description: "Round-the-clock technical support to keep your systems running",
+      title: "Ongoing Support",
+      description: "We're here when you need us, with responsive support and maintenance",
     },
   ];
 
@@ -46,7 +46,7 @@ const WhyChooseUs = () => {
             Why Choose <span className="text-primary">Augment Labs</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Our commitment to excellence sets us apart in the technology solutions landscape
+            We believe in building lasting partnerships based on trust, quality, and results
           </p>
         </motion.div>
 

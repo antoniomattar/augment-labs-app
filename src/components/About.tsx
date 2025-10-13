@@ -10,18 +10,18 @@ const About = () => {
   const features = [
     {
       icon: Target,
-      title: "Mission-Driven",
-      description: "Focused on delivering measurable results that drive business growth",
+      title: "Results-Focused",
+      description: "We measure success by the impact our work has on your business",
     },
     {
       icon: Zap,
-      title: "Innovation First",
-      description: "Leveraging cutting-edge technology to stay ahead of the curve",
+      title: "Built for Growth",
+      description: "Systems designed to scale with your business as it evolves",
     },
     {
       icon: Shield,
-      title: "Security Paramount",
-      description: "Building solutions with enterprise-grade security from the ground up",
+      title: "Security First",
+      description: "Every solution built with security and reliability as core priorities",
     },
   ];
 
@@ -41,9 +41,9 @@ const About = () => {
             About <span className="text-primary">Augment Labs</span>
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed">
-            We are a technology solutions company dedicated to transforming businesses through innovation. 
-            Our team of expert engineers and strategists work tirelessly to deliver custom solutions that 
-            empower organizations to thrive in the digital age.
+            We build software and systems that help businesses run better. Our team works with you to 
+            understand your challenges, then creates practical solutions that make a real difference — 
+            whether that's a new web platform, stronger security, or streamlined operations.
           </p>
         </motion.div>
 

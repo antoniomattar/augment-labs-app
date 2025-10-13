@@ -11,37 +11,37 @@ const Services = () => {
     {
       icon: Code,
       title: "Web & Mobile Development",
-      description: "Custom applications built with modern frameworks and best practices for seamless user experiences.",
+      description: "Custom applications that work reliably across devices, built to meet your specific business needs.",
       gradient: "from-blue-500/20 to-cyan-500/20",
     },
     {
-      icon: Bot,
-      title: "AI Automation",
-      description: "Intelligent automation solutions that streamline operations and unlock new possibilities.",
+      icon: Workflow,
+      title: "Automation & Integration",
+      description: "Connect your systems and automate repetitive tasks to free up your team for more important work.",
       gradient: "from-purple-500/20 to-pink-500/20",
     },
     {
       icon: Shield,
       title: "Cybersecurity",
-      description: "Enterprise-grade security solutions to protect your digital assets and ensure compliance.",
+      description: "Protect your business from threats with security audits, monitoring, and compliance support.",
       gradient: "from-red-500/20 to-orange-500/20",
     },
     {
       icon: Cloud,
-      title: "Cloud Infrastructure",
-      description: "Scalable cloud architecture designed for performance, reliability, and cost-efficiency.",
+      title: "Cloud Solutions",
+      description: "Migrate to the cloud or optimize your existing setup for better performance and lower costs.",
       gradient: "from-green-500/20 to-emerald-500/20",
     },
     {
       icon: Database,
-      title: "Data Analytics",
-      description: "Transform raw data into actionable insights with advanced analytics and visualization.",
+      title: "Data & Analytics",
+      description: "Make sense of your data with dashboards, reports, and tools that help you make better decisions.",
       gradient: "from-yellow-500/20 to-amber-500/20",
     },
     {
-      icon: Workflow,
-      title: "Machine Learning",
-      description: "Custom ML models and AI solutions tailored to your specific business challenges.",
+      icon: Bot,
+      title: "Digital Transformation",
+      description: "Modernize legacy systems and processes to help your business operate more efficiently.",
       gradient: "from-indigo-500/20 to-violet-500/20",
     },
   ];
@@ -59,7 +59,7 @@ const Services = () => {
             Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            Comprehensive technology solutions designed to accelerate your digital transformation
+            We offer a full range of services to help your business leverage technology effectively
           </p>
         </motion.div>
 
