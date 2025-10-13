@@ -68,20 +68,31 @@ const Team = () => {
                 transition={{ duration: 0.6, delay: index * 0.15 }}
                 className="group"
               >
-                <div className="p-8 rounded-2xl bg-card/50 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300 h-full flex flex-col text-center hover:-translate-y-2">
+                <div className="p-8 rounded-2xl bg-card/50 backdrop-blur-sm border border-border hover:border-primary/50 transition-all duration-300 h-full flex flex-col items-center text-center hover:-translate-y-2">
+                  {/* Avatar with Neon Ring */}
+                  <div className="relative mb-6">
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary to-secondary opacity-0 group-hover:opacity-100 blur-md transition-opacity duration-300"></div>
+                    <div className="relative w-36 h-36 rounded-full overflow-hidden border-2 border-primary/30 group-hover:border-primary transition-colors duration-300">
+                      <img
+                        src={member.avatar}
+                        alt={`${member.name}, ${member.role}`}
+                        className="w-full h-full object-cover"
+                        loading={index === 0 ? "eager" : "lazy"}
+                      />
+                    </div>
+                  </div>
+
                   {/* Name & Role */}
-                  <h3 className="text-2xl font-bold mb-2 group-hover:text-primary transition-colors">
-                    {member.name}
-                  </h3>
-                  <p className="text-sm text-primary/80 mb-6 font-medium">{member.role}</p>
+                  <h3 className="text-xl font-bold mb-2">{member.name}</h3>
+                  <p className="text-sm text-primary mb-3">{member.role}</p>
 
                   {/* Bio */}
-                  <p className="text-muted-foreground text-sm mb-8 flex-grow leading-relaxed">
+                  <p className="text-muted-foreground text-sm mb-6 flex-grow">
                     {member.bio}
                   </p>
 
                   {/* Social Icons */}
-                  <div className="flex gap-4 justify-center">
+                  <div className="flex gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     {member.linkedin && (
                       <a
                         href={member.linkedin}

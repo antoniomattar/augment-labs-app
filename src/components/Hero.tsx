@@ -57,7 +57,7 @@ const Hero = () => {
 					>
 						<Sparkles className="w-4 h-4 text-primary" />
 						<span className="text-sm font-medium text-primary">
-							Practical Technology Solutions
+							Innovation Meets Excellence
 						</span>
 					</motion.div>
 
@@ -67,9 +67,9 @@ const Hero = () => {
 						transition={{ duration: 0.8, delay: 0.3 }}
 						className="text-5xl md:text-7xl font-bold mb-6 leading-tight"
 					>
-						Building Digital Solutions{" "}
+						Empowering Businesses with{" "}
 						<span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">
-							That Work
+							Next-Gen Tech Solutions
 						</span>
 					</motion.h1>
 
@@ -79,7 +79,8 @@ const Hero = () => {
 						transition={{ duration: 0.8, delay: 0.4 }}
 						className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto"
 					>
-						From web development to cybersecurity — we help businesses solve real problems with reliable technology
+						From AI automation to cybersecurity — we build the
+						digital future your business deserves
 					</motion.p>
 
 					<motion.div
