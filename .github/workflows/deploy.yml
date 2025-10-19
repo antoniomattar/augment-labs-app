@@ -3,7 +3,7 @@ name: Workflow to Deploy our Website to GitHub Pages
 on:
   push:
     branches: [ main ]
-  workflow_dispatch:     # only to allow manual trigger of the pipeline.
+  workflow_dispatch:     # only to allow manual trigger of the pipeline. test
 
 permissions:
   contents: read
