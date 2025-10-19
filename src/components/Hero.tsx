@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
 	return (
@@ -90,18 +89,18 @@ const Hero = () => {
 						transition={{ duration: 0.8, delay: 0.5 }}
 						className="flex flex-col sm:flex-row gap-4 justify-center items-center"
 					>
-						<Link to="/Contact">
-							<Button
-								size="lg"
-								className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary hover:shadow-glow-lg transition-all duration-300"
-							>
-								Get a Free Consultation
+						<Button
+							size="lg"
+							onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+							className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary hover:shadow-glow-lg transition-all duration-300"
+						>
+							Get a Free Consultation
 							<ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
 						</Button>
-						</Link>
 						<Button
 							size="lg"
 							variant="outline"
+							onClick={() => document.getElementById("services")?.scrollIntoView({ behavior: "smooth" })}
 							className="border-primary/30 hover:border-primary hover:bg-primary/10 hover:text-white transition-all duration-300"
 						>
 							Explore Our Services
