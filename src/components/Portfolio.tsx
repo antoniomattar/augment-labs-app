@@ -9,27 +9,27 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "FinTech Platform",
-      category: "Web & Mobile",
-      description: "Real-time trading platform with AI-powered analytics",
+      title: "Financial Services Platform",
+      category: "Web Development",
+      description: "Custom trading platform with real-time data and advanced reporting",
       image: "bg-gradient-to-br from-blue-600/20 to-cyan-600/20",
     },
     {
-      title: "Healthcare AI",
-      category: "AI Automation",
-      description: "Diagnostic assistance system using machine learning",
+      title: "Healthcare Portal",
+      category: "Automation",
+      description: "Patient management system that streamlines appointments and records",
       image: "bg-gradient-to-br from-purple-600/20 to-pink-600/20",
     },
     {
-      title: "E-Commerce Security",
+      title: "Retail Security Overhaul",
       category: "Cybersecurity",
-      description: "Enterprise security solution for retail platform",
+      description: "Comprehensive security audit and implementation for e-commerce platform",
       image: "bg-gradient-to-br from-red-600/20 to-orange-600/20",
     },
     {
-      title: "Cloud Migration",
-      category: "Cloud Infrastructure",
-      description: "Multi-cloud architecture for global SaaS company",
+      title: "Enterprise Cloud Migration",
+      category: "Cloud Solutions",
+      description: "Seamless transition of legacy infrastructure to modern cloud architecture",
       image: "bg-gradient-to-br from-green-600/20 to-emerald-600/20",
     },
   ];
@@ -47,7 +47,7 @@ const Portfolio = () => {
             Featured <span className="text-primary">Projects</span>
           </h2>
           <p className="text-lg text-muted-foreground">
-            A showcase of innovative solutions we've delivered for our clients
+            Recent projects that showcase the work we do for our clients
           </p>
         </motion.div>
 
