@@ -1,4 +1,4 @@
-name: Deploy our web app to github pages
+name: Workflow to Deploy our Website to GitHub Pages
 
 on:
   push:
