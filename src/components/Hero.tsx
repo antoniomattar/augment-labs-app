@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
 	return (
@@ -90,7 +90,7 @@ const Hero = () => {
 						transition={{ duration: 0.8, delay: 0.5 }}
 						className="flex flex-col sm:flex-row gap-4 justify-center items-center"
 					>
-						<Link href="/contact">
+						<Link to="/contact">
 							<Button
 								size="lg"
 								className="group bg-primary hover:bg-primary/90 text-primary-foreground shadow-glow-primary hover:shadow-glow-lg transition-all duration-300"
